@@ -1,0 +1,113 @@
+div{
+    outline: none;
+}
+
+
+body{
+    overflow-x: hidden;
+    width: 100%;
+}
+
+div, span, p{ -webkit-tap-highlight-color: transparent; }
+
+.wen-error {
+    color: rgb(184, 31, 82);
+    font-size: 12px;
+    display: block;
+    padding-top: 4px;
+    text-align: center;
+}
+
+
+
+.container-1{
+    padding: 10px;
+}
+.container-2{
+    padding: 20px;
+}
+.container-3{
+    padding: 30px;
+}
+.container-4{
+    padding: 40px;
+}
+.container-5{
+    padding: 50px;
+}
+
+input[type="submit"], input[type="button"] {
+    background-color: #212121;
+    color: whitesmoke;
+    border: none;
+    border-radius: 4px;
+    padding: 18px;
+    width: 50%;
+    margin: 5px;
+}
+
+input[type="submit"]:hover, input[type="button"]:hover {
+    box-shadow: 3px 3px 5px grey;
+}
+
+#publish {
+    background-color: #f57f17;
+}
+
+#reset {
+    width: 20%;
+    font-size: 12px;
+    height: 30px;
+    padding: 6px;
+}
+
+nav {
+    margin-bottom: 20px;
+}
+
+.login-plate p{
+    padding: 0;margin: 0;
+}
+.login-plate .header{
+    font-size: 18px;
+    font-weight: bold;
+}
+.login-plate .signup-flag{
+    font-size: 10px;
+}
+
+/* img:last-child {
+    opacity: 0;
+    height: 0px;
+} */
+img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"]
+{
+    display: none;
+    height: 0;
+    opacity: 0;
+}
+
+.fantasy {
+    font-family: fantasy;
+}
+
+.page-footer {
+    margin-top: 100px;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+.navbar-fixed {
+    margin-bottom: 40px;
+}
+
+.wen-hide{
+    display: none;
+}
+
+.app-model{
+    display:none;
+}
+
+
